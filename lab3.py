@@ -93,4 +93,4 @@ print("Predicting Attributes:", attribute_names)
 from pprint import pprint 
 tree = id3(df_tennis,'PlayTennis',attribute_names)
 print("\n\nThe Resultant Decision Tree is :\n") 
-pprint(tree) 
+print(tree) 
